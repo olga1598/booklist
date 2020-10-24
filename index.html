@@ -6,6 +6,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
     <title>Booklist</title>
     <style>
+        body{
+            background-color: rgb(241, 237, 237);;
+        }
+        #submit {
+            background-color: lightblue;
+        }
         .error, .success {
             color: white;
             width: 100%;
@@ -26,15 +32,15 @@
         <form class="book-form">
             <div>
                 <label for="title">Title</label>
-                <input type="text" id="title" class="u-full-width">
+                <input type="text" id="title" class="u-full-width" placeholder="Enter title...">
             </div>
             <div>
                 <label for="title">Author</label>
-                <input type="text" id="author" class="u-full-width">
+                <input type="text" id="author" class="u-full-width" placeholder="Enter author...">
             </div>
             <div>
                 <label for="title">isbn#</label>
-                <input type="text" id="isbn" class="u-full-width">
+                <input type="text" id="isbn" class="u-full-width" placeholder="Enter isbn number...">
             </div>
             <div>
                 <input type="submit" id="submit" value="Submit" class="u-full-width">
